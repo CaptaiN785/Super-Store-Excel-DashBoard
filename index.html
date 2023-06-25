@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Super Store Dashboard</title>
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: #0B2447;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            /* background:  */
+            background: #A5D7E8;
+            padding:1rem 4rem;
+        }
+
+        .heading{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2rem;
+            color:#19376D;
+        }
+        
+        .share{
+            display: flex;
+            gap:1rem;
+        }
+        .logo img{
+            height:30px;
+            width: auto;
+        }
+        .logo img:hover{
+            animation: normal logo-animator 0.3s;
+        }
+        .excel img{
+            height:35px;
+        }
+        .container{
+            margin:2rem;
+            min-height: 100vh;
+        }
+
+        .dashboard{
+            display: block;
+            width:100%;
+            height:85vh;
+            border-radius: 10px;
+            border:none;
+        }
+
+        @keyframes logo-animator {
+            50%{
+                transform: rotate(45deg);
+            }
+            0%,100%{
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="navbar">
+
+        <h2 class="heading">Gobal Super Store Dashboard in Excel</h2>
+
+        <div class="share">
+            <a class="excel logo" target="_blank" href="https://1drv.ms/x/s!AgSdEOaAuV-ZhFYAVEcyACrGzTKZ?e=T0a0MN" >
+                <img src="https://download.logo.wine/logo/Microsoft_Excel/Microsoft_Excel-Logo.wine.png" alt="Excel">
+            </a>
+            <a class="logo" target="_blank" href="https://github.com/CaptaiN785/Super-Store-Excel-DashBoard" >
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github">
+            </a>
+           
+        </div>
+    </div>
+    <div class="container">
+        <iframe class="dashboard" src="https://onedrive.live.com/embed?resid=995FB980E6109D04%21598&authkey=!AB1ktyRk7nogfpI&em=2"></iframe>
+    </div>
+
+</body>
+</html>
